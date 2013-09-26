@@ -40,7 +40,7 @@ for i in range(4):
         else:
             print "You missed my battleship!"
             board[guess_row][guess_col] = "X"
-        Print (turn + 1) here!
+        print str((turn + 1)), "here!"
         if turn == 4:
             print "Game Over"
         print_board(board)
